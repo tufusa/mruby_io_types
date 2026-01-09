@@ -1,7 +1,16 @@
 {
   "$schema": "https://github.com/googleapis/release-please/raw/main/schemas/config.json",
-  "release-type": "simple",
+  "release-type": "ruby",
   "changelog-path": "CHANGELOG.md",
   "include-component-in-tag": false,
-  "extra-files": ["mruby_io_types.gemspec", "README.md"]
+  "extra-files": [
+    {
+      "type": "generic",
+      "path": "mruby_io_types.gemspec"
+    },
+    {
+      "type": "generic",
+      "path": "README.md"
+    }
+  ]
 }
