@@ -6,11 +6,7 @@
       "changelog-path": "CHANGELOG.md",
       "include-component-in-tag": false,
       "initial-version": "0.1.0",
-      "extra-files": [
-        {
-          "path": "mruby_io_types.gemspec"
-        }
-      ]
+      "extra-files": ["mruby_io_types.gemspec"]
     }
   }
 }
