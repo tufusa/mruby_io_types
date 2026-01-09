@@ -4,16 +4,13 @@
     ".": {
       "release-type": "ruby",
       "changelog-path": "CHANGELOG.md",
+      "changelog-type": "github",
       "include-component-in-tag": false,
       "initial-version": "0.1.0",
       "extra-files": [
         {
           "type": "generic",
           "path": "mruby_io_types.gemspec"
-        },
-        {
-          "type": "generic",
-          "path": "README.md"
         }
       ]
     }
