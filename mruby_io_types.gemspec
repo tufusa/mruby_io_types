@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name = 'mruby_io_types'
-  spec.version = '0.0.0' # x-release-please-version
+  spec.version = '0.1.0' # x-release-please-version
   spec.authors = ['tufusa']
   spec.email = ['me@tufusa.net']
 
