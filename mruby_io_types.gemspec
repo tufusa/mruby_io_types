@@ -6,7 +6,7 @@ require 'mruby_io_types'
 
 Gem::Specification.new do |spec|
   spec.name = 'mruby_io_types'
-  spec.version = MrubyIoTypes::VERSION
+  spec.version = '0.1.0' # x-release-please-version
   spec.authors = ['tufusa']
   spec.email = ['me@tufusa.net']
 
