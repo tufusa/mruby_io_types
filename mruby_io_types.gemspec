@@ -1,8 +1,10 @@
 # frozen_string_literal: true
 
+require 'mruby_io_types'
+
 Gem::Specification.new do |spec|
   spec.name = 'mruby_io_types'
-  spec.version = '0.1.0'
+  spec.version = MrubyIoTypes::VERSION
   spec.authors = ['tufusa']
   spec.email = ['me@tufusa.net']
 

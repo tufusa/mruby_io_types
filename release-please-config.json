@@ -5,7 +5,7 @@
       "release-type": "ruby",
       "changelog-path": "CHANGELOG.md",
       "include-component-in-tag": false,
-      "version-file": "mruby_io_types.gemspec"
+      "version-file": "lib/mruby_io_types.rb"
     }
   }
 }
