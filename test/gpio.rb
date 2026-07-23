@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 # rubocop:disable Lint/UselessAssignment
-# rubocop:disable Lint/Void
 
 # GPIO.setmode
 GPIO.setmode 1, GPIO::OUT

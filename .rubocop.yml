@@ -3,6 +3,7 @@ plugins:
 
 AllCops:
   NewCops: enable
+  TargetRubyVersion: 3.2
 
 # rubocop needs manual exclude each rule; why???
 Style/Documentation:

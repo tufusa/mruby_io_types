@@ -6,25 +6,19 @@ Gem::Specification.new do |spec|
   spec.authors = ['tufusa']
   spec.email = ['me@tufusa.net']
 
-  spec.summary = 'summary'
-  spec.description = 'description'
+  spec.summary = 'RBS type definitions for mruby & mruby/c Common I/O API.'
+  spec.description = 'RBS type definitions for mruby & mruby/c Common I/O API.'
   spec.homepage = 'https://github.com/poporonnet/mruby_io_types'
   spec.license = 'MIT'
-  spec.required_ruby_version = '>= 2.6.0'
+  spec.required_ruby_version = '>= 3.2.0'
 
-  # spec.metadata['allowed_push_host'] = ''
+  spec.metadata['allowed_push_host'] = 'https://rubygems.org'
 
   spec.metadata['homepage_uri'] = spec.homepage
   spec.metadata['source_code_uri'] = 'https://github.com/poporonnet/mruby_io_types'
-  # spec.metadata['changelog_uri'] = ''
+  spec.metadata['changelog_uri'] = 'https://github.com/poporonnet/mruby_io_types/blob/main/CHANGELOG.md'
   spec.metadata['rubygems_mfa_required'] = 'true'
 
   # Specify which files should be added to the gem when it is released.
-  # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
-  spec.files = Dir.chdir(__dir__) do
-    `git ls-files -z`.split("\x0").reject do |f|
-      (File.expand_path(f) == __FILE__) ||
-        f.start_with?(*%w[bin/ test/ spec/ features/ .git .circleci appveyor Gemfile])
-    end
-  end
+  spec.files = Dir['sig/**/*', 'LICENSE.txt', 'README.md']
 end
