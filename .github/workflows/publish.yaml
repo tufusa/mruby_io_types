@@ -3,6 +3,8 @@ on:
     tags:
       - v*.*.*
 
+name: publish
+
 jobs:
   publish:
     runs-on: ubuntu-latest

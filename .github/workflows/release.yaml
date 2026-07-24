@@ -14,7 +14,7 @@ permissions:
   issues: write
   pull-requests: write
 
-name: release-please
+name: release
 
 jobs:
   release-please:
