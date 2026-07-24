@@ -2,12 +2,6 @@ on:
   push:
     branches:
       - main
-  workflow_dispatch:
-    inputs:
-      version:
-        type: string
-        description: version to release (e.g. 1.0.0)
-        required: false
 
 permissions:
   contents: write
@@ -24,4 +18,3 @@ jobs:
         with:
           config-file: release-please-config.json
           manifest-file: .release-please-manifest.json
-          release-as: ${{ github.event.inputs.version }}
